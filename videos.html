@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>描き方動画一覧｜らこのお絵描きルーム</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f7fbff;
+      color: #46515c;
+      line-height: 1.8;
+    }
+
+    header {
+      padding: 22px 16px;
+      text-align: center;
+      background: #dff2ff;
+    }
+
+    header a {
+      color: #426b88;
+      text-decoration: none;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    main {
+      width: min(900px, 92%);
+      margin: 0 auto;
+      padding: 38px 0 60px;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: clamp(24px, 5vw, 34px);
+      color: #426b88;
+      line-height: 1.5;
+    }
+
+    .intro p {
+      font-size: 14px;
+    }
+
+    .character-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .character {
+      display: block;
+      padding: 24px 18px;
+      background: white;
+      border: 2px solid #e1eff9;
+      border-radius: 22px;
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 4px 12px #dceaf455;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .character:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 18px #dceaf4aa;
+    }
+
+    .character .emoji {
+      font-size: 42px;
+      line-height: 1.4;
+    }
+
+    .character h2 {
+      margin: 8px 0 4px;
+      color: #426b88;
+      font-size: 20px;
+    }
+
+    .character p {
+      margin: 0;
+      font-size: 13px;
+    }
+
+    .back {
+      display: block;
+      width: fit-content;
+      margin: 34px auto 0;
+      padding: 10px 22px;
+      border-radius: 30px;
+      background: #dff2ff;
+      color: #426b88;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      color: #8193a2;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html">RAKO'S DRAWING ROOM</a>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h1>ゆっくり描いてみよう！</h1>
+      <p>
+        描き方動画と解説をまとめたよ！<br>
+        好きなキャラクターを選んでね 🩵
+      </p>
+    </section>
+
+    <section class="character-list">
+
+      <a class="character" href="chiikawa.html">
+        <div class="emoji">✏️</div>
+        <h2>ちいかわ</h2>
+        <p>描き方動画・手順・ポイント</p>
+      </a>
+
+      <a class="character" href="usagi.html">
+        <div class="emoji">🐰</div>
+        <h2>うさぎ</h2>
+        <p>描き方動画・手順・ポイント</p>
+      </a>
+
+      <a class="character" href="hachiware.html">
+        <div class="emoji">💙</div>
+        <h2>ハチワレ</h2>
+        <p>描き方動画・手順・ポイント</p>
+      </a>
+
+    </section>
+
+    <a class="back" href="index.html">← トップページに戻る</a>
+  </main>
+
+  <footer>
+    © RAKO'S DRAWING ROOM
+  </footer>
+
+</body>
+</html>

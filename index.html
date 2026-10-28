@@ -200,6 +200,48 @@
       font-size: 1.5rem;
     }
 
+        .gallery-card {
+      display: block;
+      padding: 26px 20px;
+      border: 2px solid #d9ecf8;
+      border-radius: 26px;
+      background: var(--white);
+      box-shadow: 0 8px 0 #e8f4fb;
+      text-align: center;
+      text-decoration: none;
+      transition: transform .15s;
+    }
+
+    .gallery-card:hover {
+      transform: translateY(-3px);
+    }
+
+    .gallery-icon {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 2.5rem;
+    }
+
+    .gallery-card h3 {
+      margin: 0 0 8px;
+    }
+
+    .gallery-card p {
+      margin: 0;
+      font-size: .92rem;
+    }
+
+    .gallery-label {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 3px 12px;
+      border-radius: 999px;
+      background: var(--blue-pale);
+      color: var(--blue-dark);
+      font-size: .8rem;
+      font-weight: 700;
+    }
+
     .site-footer {
       padding: 25px 16px;
       background: #eaf6ff;
@@ -312,6 +354,18 @@
       </div>
     </section>
   </main>
+
+      <section class="section" id="gallery">
+      <a class="gallery-card" href="gallery.html">
+        <span class="gallery-icon">🖼️</span>
+        <h3>みなさんのおえかき美術館</h3>
+        <p>
+          みなさんが描いてくれた作品をご紹介する場所です。<br>
+          どんな作品が集まるのか、お楽しみに！🎨
+        </p>
+        <span class="gallery-label">🌱 ただいま準備中</span>
+      </a>
+    </section>
 
   <footer class="site-footer">
     <p>© Rako's Drawing Room</p>
